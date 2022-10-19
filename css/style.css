@@ -1,0 +1,61 @@
+.zero {
+   background-image: url(/img/zero.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 96px;
+   height: 96px;
+}
+
+.hero {
+   background-image: url(/img/cross.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.content {
+   width: 380px;
+   height: 380px;
+   margin: 250px auto;
+}
+
+.cell {
+   float: left;
+   height: 96px;
+   width: 96px;
+   margin: 15px;
+}
+
+.cell:hover {
+   background-color: rgba(68, 32, 109, 0.1);
+}
+
+.linear {
+   position: absolute;
+}
+
+.linear1, .linear2, .linear3, .linear4 {
+   width: 380px;
+   height: 18px;
+   position: absolute;
+   user-select: none;
+}
+
+.linear1 {
+   margin-top: 117px;
+}
+
+.linear2 {
+   margin-top: 247px;
+}
+
+.linear3 {
+   margin-top: 181px;
+   margin-left: -64px;
+   transform: rotate(90deg);
+}
+
+.linear4 {
+   margin-top: 181px;
+   margin-left: 64px;
+   transform: rotate(90deg);
+}
